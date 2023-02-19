@@ -1,0 +1,380 @@
+@charset "UTF-8";
+
+body{
+    padding:0;
+    margin:0;
+    list-style: none;
+    text-decoration: none;
+    color: rgb(0,0,0);
+    width: 1200px;
+    height: 700px;
+    background-color: #f0eeee;
+}
+*{
+    font-family: "맑은 고딕";
+    font-size: 16px;
+}
+header{
+    width: 1200px;
+    height: 150px;
+    background-color: white;
+}
+.top{
+    float: left;
+    width: 1200px;
+    height: 60px;
+}
+.title{
+    float: left;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.title span{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'ChosunCentennial';
+}
+.title span:hover{
+    cursor: pointer;
+}
+.find{
+    float: left;
+    width: 1200px;
+    height: 70px;
+    text-align: center;
+}
+.find input[type=text]{
+    width: 500px;
+    height: 40px;
+}
+.find input[type=button]{
+    width: 80px;
+    height: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.find span{
+    font-weight: bold;
+    font-size: 22px;
+    margin-right: 20px;
+}
+.fristfind{
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.secondfind{
+    margin-right: 20px;
+    margin-top: 10px;
+}
+#content{
+    float: left;
+    width: 1200px;
+    height: 450px;
+    background-color: whitesmoke;
+}
+.noticetitle{
+    float:left;
+    width: 300px;
+    height: 250px;
+    margin-left: 25px;
+    margin-top: 75px;
+}
+.notice :nth-child(2n){
+    background-color: blanchedalmond;
+}
+.smalltitle{
+    margin-top: 20px;
+    margin-left: 20px;
+    text-align: center;
+    width: 70px;
+    height: 30px;
+    line-height: 25px;
+    background-color: bisque;
+    border: 1px solid gray;
+    border-bottom: none;
+}
+.smalltitle span{
+    font-size: 14px;
+    font-weight: bold;
+}
+.notice{
+    border: 1px solid gray;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 10px;
+}
+.notice div{
+    height: 40px;
+    line-height: 40px;
+    font-size: 13px;
+}
+.notice div:hover{
+    font-weight: bold;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.noticesamll{
+    float: right;
+    font-size: 11px;
+    line-height: 40px;
+}
+
+.book{
+    float: left;
+    width: 400px;
+    height: 450px;
+}
+.booksize{
+    width: 400px;
+    height: 350px;
+    margin-top: 55px;
+}
+.booktitle{
+    width: 150px;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 30px;
+    text-align: center;
+    border: 1px solid gray;
+    border-bottom: none;
+}
+.booktitle span{
+    font-weight: bold;
+}
+.table{
+    border-collapse: collapse;
+    margin-left: 25px;
+    text-align: center;
+}
+.introduce{
+    float:right;
+    width: 400px;
+    height: 450px;
+}
+.introducebody{
+    width: 380px;
+    height: 320px;
+    margin-top: 70px;
+    margin-right: 50px;
+    padding: 10px;
+}
+.introduce b{
+    font-size: 20px;
+    font-family: 'KyoboHandwriting2020A'; 
+}
+.introduce span{
+    font-family: "굴림";
+    line-height: 40px;
+}
+
+
+footer{
+    float: left;
+    background-color: gainsboro;
+    width: 1200px;
+    height: 100px;
+    border-top:1px solid blue;
+}
+.footermeun{
+    margin-top: 50px;
+    border-top: 1px solid gray;
+}
+.map{
+    float: left;
+    margin-top: 5px;
+    margin-left: 20px;
+    font-size: 14px;
+}
+.map:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.in{
+    float: left;
+    margin-top: 5px;
+    margin-left: 20px;
+    font-size: 14px;
+}
+.in:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.modify{
+    float: right;
+    margin-top: 5px;
+    margin-right: 100px;
+    font-size: 14px;
+}
+.modify:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#tablescroll{
+	width: 1100px;
+	margin-left: 100px;
+	margin-top: 50px;
+	height: 350px;
+	overflow: auto;
+}
+#findtable{
+	width: 1000px;
+    margin-top: 20px;
+	border-collapse: collapse;
+}
+.findtitle{
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+}
+#findtable tr{
+	height: 40px;
+}
+#findtable td{
+	text-align: center;
+	width: 200px;
+}
+.findbooktitletr{
+	margin-top: 10px;
+}
+.findbooktitletr td{
+	font-weight: bold;
+}
+
+
+.noticesize{
+	width: 1000px;
+	height: 350px;
+	margin-left: 100px;
+	margin-top: 50px;
+	background-color: white;
+	padding-top: 20px;	
+}
+.noticebodytitlediv{
+	width: 1000px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+}
+.noticebodytitle{
+	font-size: 25px;
+	font-weight: bold;
+}
+.noticebodydiv{
+	width: 1000px;
+	height: 250px;
+	text-align: center;
+}
+.noticebody{	
+	font-size: 16px;
+}
+.noticebodydiv img{
+	width: 230px;
+	height: 230px;
+}
+
+.insize{
+	width: 1000px;
+	height: 430px;
+	margin-left: 100px;
+	margin-top: 30px;
+}
+.intitle{
+	width: 1000px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+}
+.intitle span{
+	font-size: 25px;
+	font-weight: bold;
+}
+.inbody{
+	width: 1000px;
+	height: 390px;
+	margin-top: 30px;
+}
+.inbody>div{
+	display: inline-block;
+	width: 200px;
+	height: 250px;
+	margin-left: 30px;
+}
+.inbody>div>div{
+	text-align: center;
+	font-weight: bold;
+}
+.inbody img{
+	margin-top: 20px;
+	width: 220px;
+	height: 220px;
+}
+
+.mapsize{
+	float: left;
+	width: 1100px;
+	height: 430px;
+	margin-left: 50px;
+	margin-top: 10px;
+}
+.maptitle{
+	float: left;
+	width: 800px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+}
+.maptitle span{
+	font-size: 25px;
+	font-weight: bold;
+}
+.mapbody{
+	float: left;
+	width: 800px;
+	height: 390px;
+	margin-top: 10px;
+}
+.mapbody iframe{
+	width: 800px;
+	height: 390px;	
+}
+.where{
+	float: right;
+	width: 210px;
+	height: 90px;
+	margin-top: 50px;
+	margin-right: 30px;
+	background-color: white;
+	padding: 10px;
+	line-height: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: 'ChosunCentennial';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/ChosunCentennial.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'KyoboHandwriting2020A';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2112@1.0/KyoboHandwriting2020A.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

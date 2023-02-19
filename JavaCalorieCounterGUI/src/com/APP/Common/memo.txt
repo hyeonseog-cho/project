@@ -1,0 +1,17 @@
+// 1) HashMap
+    // static HashMap<String,String> userInputTxtMap = new HashMap<String,String>(){{
+    //   // Putting values to HashMap
+    //   put("name", "Joonhyeong");
+    //   put("gender", "Male");
+    //   put("age", "24");
+    //   put("height", "177");
+    //   put("weight", "100");
+    //   put("goalCalories", "1500");
+    // }};
+    // public static HashMap<String, String> getUserInputTxtMap() {
+    //   return userInputTxtMap;
+    // }
+
+    // public static void setUserInputTxtMap(HashMap<String, String> userInputTxtMap) {
+    //   UserInputTxt.userInputTxtMap = userInputTxtMap;
+    // }

@@ -1,0 +1,90 @@
+package G;
+
+import java.awt.BorderLayout;
+import java.awt.Color;
+import java.awt.Font;
+import java.awt.GridBagLayout;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.JPasswordField;
+import javax.swing.JTextField;
+
+
+public class Main extends JFrame{
+
+
+   
+   public Main() {
+   
+   }
+
+   public static void main(String[] args){
+      
+      //기초공사
+      JFrame jframe= new JFrame();
+      jframe.setTitle("LOG IN");
+      jframe.setLocationRelativeTo(null);
+      jframe.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+      jframe.setLayout(null); //위치 잡아주는 거임.
+
+       
+      
+       //로그인 라벨
+     JPanel jpanel= new JPanel();
+      JLabel login = new JLabel("Log in");
+      login.setBounds(90,30,200,200);
+      login.setFont(new Font("궁서", Font.BOLD,50));
+       jpanel.add(login);
+       jframe.add(login);
+             
+ 
+     //  아이디창
+       JTextField textID= new JTextField();
+       textID.setBounds(70,250,400,60);
+       jframe.getContentPane().add(textID);
+       textID.setVisible(true);
+       
+
+        
+       //비밀번호창
+JPasswordField textPW= new JPasswordField();
+       textPW.setBounds(70,340,400,60);
+       jframe.getContentPane().add(textPW);
+       textPW.setVisible(true);
+
+       
+   
+        //로그인 버튼
+        JButton jbutton1= new JButton("Log in");
+        jbutton1.setBounds(60,500,400,30);
+       jbutton1.setBackground(new Color(0,204,204)); 
+        jframe.getContentPane().add(jbutton1);
+        jbutton1.setVisible(true);
+       jbutton1.addActionListener(null); 
+        
+        
+        //회원가입 버튼
+        JButton jbutton2= new JButton("or,sign up");
+        jbutton2.setBounds(60,550,400,30);
+        jframe.getContentPane().add(jbutton2);
+        jbutton2.setVisible(true);
+        jbutton2.addActionListener(null);
+        
+        
+
+        jframe.setVisible(true);
+    
+ 
+       
+      
+      
+   }
+
+     
+     
+    }
+   
+

@@ -1,0 +1,15 @@
+1. 월렛 파일 내용물 압축해서 월렛 이름과 동일한 zip 파일 생성
+
+
+2. sqldeveloper 실행 -> 새로 만들기
+
+3. 접속 유형 - 클라우드 전자 지갑
+
+4. 구성 파일에 월렛 zip 파일 설정
+
+5. 서비스 목록 중 가장 위의 ~~high 선택
+
+6. id, password 입력
+DB_USER : CALORIEAPP DB_PASSWORD = rerWQ8S8bAgQ
+
+7. 테스트 성공 확인 후 접속
